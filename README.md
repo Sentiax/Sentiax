@@ -3,6 +3,14 @@
  <h2 align="center">HJX.</h2>
  <p align="center">Welcome to My about!</p>
 </p>
+<p align="center">
+<a href="?utm_source">
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="Give egypt logo" width="80" />
+</a>
+<p align="center">
+<a href="?utm_source">
+<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" style="border-radius: 203px; alt="Give egypt logo" width="80" />
+</a>
 
 
   <p align="center">
@@ -11,6 +19,8 @@
    <a href="https://hjx.arb2.repl.co/">Website</a>
  
 </p>
+
+
 <p align="center">
 <a href="?utm_source">
 <img src="https://cdn2.iconfinder.com/data/icons/world-monuments-and-travel/64/Travel-50-256.png" alt="Give egypt logo" width="200" />
