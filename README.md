@@ -1,10 +1,7 @@
 # Hey there!
 
 I'm Sentiax 
-
-- :muscle:  FullStack Dev.
-
-Business Email: <a href="mailto:sentiax@twiz.lol">sentiax@twiz.lol</a>  <br>
+<br>
 
 ## :wrench: Interests
 
