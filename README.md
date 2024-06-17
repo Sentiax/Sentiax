@@ -1,22 +1,45 @@
-# Hey there!
-
-I'm Sentiax 
-<br>
-
-## :wrench: Interests
-
-![HTML5](https://img.icons8.com/color/30/html-5.png) ![CSS3](https://img.icons8.com/color/30/css3.png) ![JavaScript](https://img.icons8.com/color/30/javascript.png) ![TypeScript](https://img.icons8.com/color/30/typescript.png) ![NodeJS](https://img.icons8.com/color/30/nodejs.png) ![NPM](https://img.icons8.com/color/30/npm.png) ![Github](https://img.icons8.com/material-outlined/30/github.png) ![Git](https://img.icons8.com/color/30/git.png) ![VSCode](https://img.icons8.com/color/30/visual-studio-code-2019.png) ![EJS](https://icon-icons.com/downloadimage.php?id=130626&root=2107/PNG/32/&file=file_type_ejs_icon_130626.png) ![MongoDB](https://github.com/Sentiax/Sentiax/assets/73078933/bd9faa5f-7ee1-4bbc-bda4-653468b6c46c)
-
-  
-## My Status
-<a><!-- wi*quL3fcV --><img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sentiax&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6&exclude_repo=comp426,Redventures-Movie-Quotes&theme=radical" /></a>
 
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Montserrat&size=25&duration=3650&pause=3000&color=F7F7F7&random=false&width=435&lines=%C3%96mer%2C+a+everything+developer)](https://twiz.lol)
 
-----
+```cpp
+#include <iostream>
+#include <string>
+#include <vector>
+#include <map>
 
-<p align='center'>
-</p>
+class AboutMe {
+public:
+    std::string name;
+    std::vector<std::string> aliases;
+    std::string discord;
+    std::map<std::string, std::string> projects;
 
-    
+    AboutMe() {
+        name = "Ömer";
+        aliases = {"Sentiax", "isw_", "Astro"};
+        discord = "_0vc.";
+        projects = {
+            {"Twiz.lol", "A bio-link site for sharing social links."},
+            {"SGuard", "A upcoming tool that protects sites from bots, DDoS, and hackers."}
+        };
+    }
+};
 
+int main() {
+    AboutMe aboutMe;
+    std::cout << "Name: " << aboutMe.name << std::endl;
+    std::cout << "Aliases: ";
+    for (const auto& alias : aboutMe.aliases) {
+        std::cout << alias << " ";
+    }
+    std::cout << std::endl;
+    std::cout << "Discord: " << aboutMe.discord << std::endl;
+    std::cout << "Projects:" << std::endl;
+    for (const auto& project : aboutMe.projects) {
+        std::cout << "  " << project.first << ": " << project.second << std::endl;
+    }
+
+    return 0;
+}
+```
