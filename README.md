@@ -17,7 +17,7 @@ public:
 
     AboutMe() {
         name = "Ömer";
-        aliases = {"Sentiax", "isw_", "Astro"};
+        aliases = {"Sentiax", "isw_", "Astro","Rcynx"};
         discord = "_0vc.";
         projects = {
             {"Twiz.lol", "A bio-link site for sharing social links."},
