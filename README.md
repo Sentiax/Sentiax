@@ -17,10 +17,10 @@ public:
 
     AboutMe() {
         name = "Ömer";
-        aliases = {"Sentiax", "isw_", "Astro","Rcynx"};
+        aliases = {"Sentiax", "hbyq", "hbyqz", "Astro","Rcynx"};
         discord = "hbyq";
         projects = {
-            {"Twiz.lol", "A bio-link site for sharing social links."},
+            {"ysn.lol", "A bio-link site for sharing social links."},
             {"SGuard", "A upcoming tool that protects sites from bots, DDoS, and hackers."}
         };
     }
@@ -35,7 +35,7 @@ int main() {
     }
     std::cout << std::endl;
     std::cout << "Discord: " << aboutMe.discord << std::endl;
-    std::cout << "Projects:" << std::endl;
+    std::cout << "My Projects:" << std::endl;
     for (const auto& project : aboutMe.projects) {
         std::cout << "  " << project.first << ": " << project.second << std::endl;
     }
